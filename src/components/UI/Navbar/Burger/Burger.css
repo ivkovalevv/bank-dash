@@ -1,0 +1,26 @@
+.burger{
+    display: none;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    background-image: url(../../../../assets/img/svg/BURGER.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+@media (max-width: 1200px) {
+    .burger{
+        display: flex;
+    }
+}
+
+@media (max-width: 480px){
+    #burger{
+      width: 14px;
+      height: 18px;
+    }
+}

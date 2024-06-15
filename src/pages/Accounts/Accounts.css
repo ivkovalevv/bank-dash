@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+  /* SECTION ACC */
+
+  .section-accounts{
+    box-sizing: border-box;
+    width: 100%;
+    height: fit-content;
+    margin-right: auto;
+    background-color: #f5f7fa;
+    padding: 24px 40px 24px 290px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .accounts-cards-block{
+    width: 350px;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 24px;
+  }
+  
+  .accounts-cards-line{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .accounts-heading{
+    margin-top: 0;
+    font-family: 'Inter';
+    font-size: 22px;
+    font-weight: 600;
+    text-align: left;
+    color: #343C6A;
+    margin: 0px;
+  }
+  
+  .accounts-btn{
+    font-family: 'Inter';
+    font-size: 17px;
+    font-weight: 600;
+    text-align: right;
+    color: #343C6A;
+    cursor: pointer;
+  }
+  
+  .current-accounts-card{
+    position: relative;
+    width: 350px;
+    height: 235px;
+    background: linear-gradient(107.38deg, #4C49ED 2.61%, #0A06F4 101.2%);
+    border-radius: 25px;
+    background-image: url(../../assets/img/svg/card-1.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .current-accounts-card::before{
+    content: '';
+    position: absolute;
+    top: 70%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #cacaca;
+  }
+  
+  .accounts-last-transaction-heading{
+    font-family: 'Inter';
+    font-size: 22px;
+    font-weight: 600;
+    text-align: left;
+    color: #343C6A;
+    margin: 0px;
+    margin-bottom: 20px
+  }
+  
+  .accounts-last-transaction-card{
+    width: 730px;
+    height: 235px;
+    background-color: #FFF; 
+    border-radius: 25px;
+    background-image: url(../../assets/img/svg/LastTransactions.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  
+  .section-accounts-list{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 23px;
+  }
+  
+  .section-accounts-list-item{
+    box-sizing: border-box;
+    width: 255px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    background-color: #FFF;
+    border-radius: 25px;
+    padding: 25px 36px;
+  }
+  
+  .section-accounts-list-item-img{
+    box-sizing: border-box;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 15px;
+  }
+  
+  .accounts-list-item-img-1{background-color: #FFF5D9; display: flex; align-items: center; justify-content: center;}
+  .accounts-list-item-img-2{background-color: #E7EDFF; display: flex; align-items: center; justify-content: center;}
+  .accounts-list-item-img-3{background-color: #FFE0EB; display: flex; align-items: center; justify-content: center;}
+  .accounts-list-item-img-4{background-color: #DCFAF8; display: flex; align-items: center; justify-content: center;}
+  
+  .section-accounts-list-item-content{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+  }
+  
+  .list-item-content-text{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+    color: #718EBF;
+    margin: 0px;
+    margin-bottom: 7px;
+  }
+  
+  .list-item-content-price{
+    font-family: 'Inter';
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30.26px;
+    text-align: left;
+    color: #232323;
+    margin: 0px;
+  }
+  
+  .accounts-debit-heading{
+    font-family: 'Inter';
+    font-size: 22px;
+    font-weight: 600;
+    text-align: left;
+    color: #343C6A;
+    margin: 0px;
+    margin-bottom: 20px
+  }
+  
+  .accounts-debit-card{
+    width: 730px;
+    height: 364px;
+    background-color: #FFF; 
+    border-radius: 25px;
+    background-image: url(../../assets/img/svg/Debit.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .accounts-invoices-heading{
+    font-family: 'Inter';
+    font-size: 22px;
+    font-weight: 600;
+    text-align: left;
+    color: #343C6A;
+    margin: 0px;
+    margin-bottom: 20px
+  }
+  
+  .accounts-invoices-card{
+    width: 350px;
+    height: 364px;
+    background-color: #FFF; 
+    border-radius: 25px;
+    background-image: url(../../assets/img/svg/Incoices.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  @media (max-width: 1200px) {
+    .section-accounts{
+      justify-content: center;
+      padding: 24px 40px 24px 40px;
+    }
+
+    .section-accounts-list{
+      flex-wrap: wrap;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .section-accounts-list-item{
+      width: 185px;
+      height: 95px;
+      margin-bottom: 15px;
+      padding: 10px 15px;
+    }
+
+    .section-accounts-list-item-img{
+      width: 50px;
+      height: 50px;
+      margin-right: 5px;
+    }
+
+    .list-item-content-text{
+      font-size: 12px;
+    }
+
+    .list-item-content-price > b{
+      font-size: 16px;
+    }
+
+    .accounts-last-transaction-block{
+      width: 100%;
+    }
+
+    .accounts-last-transaction-card{
+      width: 100%;
+      min-width: 325px;
+      height: 235px;
+      background-image: url(.../../../../assets/img/svg/Last-media.svg);
+      background-size: contain;
+      margin-bottom: 10px;
+    }
+
+    .accounts-cards-block{
+      width: 100%;
+    }
+
+    .current-accounts-card{
+      width: 100%;
+    }
+
+    .accounts-debit-block{
+      width: 100%;
+    }
+
+    .accounts-debit-card{
+      width: 100%;
+      min-width: 325px;
+      height: 245px;
+      background-image: url(../../assets/img/svg/Debit-media.svg);
+      background-size: contain;
+      margin-bottom: 10px;
+    }
+
+    .accounts-invoices-block{
+      width: 100%;
+    }
+
+    .accounts-invoices-card{
+      width: 100%;
+      min-width: 325px;
+    }
+  }
+  
+  @media (max-width: 768px){
+    .section-accounts{
+      padding: 14px 20px 14px 20px;
+      justify-content: center;
+    }
+  }
+
+  @media (max-width: 480px){
+    .section-accounts{
+      justify-content: flex-start;
+      overflow: hidden;
+    }
+
+    .section-accounts-list-item{
+      width: 165px;
+    }
+
+    .accounts-last-transaction-heading, .accounts-heading, .accounts-debit-heading, .accounts-invoices-heading{
+      font-size: 16px;
+    }
+
+    .accounts-btn{
+      font-size: 14px;
+    }
+  }

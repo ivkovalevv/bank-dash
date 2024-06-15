@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+  /* SECTION OVERVIEW */
+  
+  .section-overview{
+    box-sizing: border-box;
+    width: 100%;
+    margin-right: auto;
+    height: fit-content;
+    background-color: #f5f7fa;
+    padding: 24px 40px 24px 290px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .overview-cards-block{
+    width: 730px;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .overview-cards-line{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .overview-heading{
+    margin-top: 0;
+    font-family: 'Inter';
+    font-size: 22px;
+    font-weight: 600;
+    text-align: left;
+    color: #343C6A;
+    margin: 0px;
+    user-select: none;
+  }
+  
+  .overview-btn{
+    font-family: 'Inter';
+    font-size: 17px;
+    font-weight: 600;
+    text-align: right;
+    color: #343C6A;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    user-select: none;
+  }
+
+  .overview-btn:hover{
+    color: #3531ef;
+  }
+
+  .cards-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .current-overview-card{
+    position: relative;
+    width: 350px;
+    height: 235px;
+    background: linear-gradient(107.38deg, #4C49ED 2.61%, #0A06F4 101.2%);
+    border-radius: 25px;
+    background-image: url(../../assets/img/svg/card-1.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .another-overview-card{
+    position: relative;
+    width: 350px;
+    height: 235px;
+    background-color: #fff;
+    border-radius: 25px;
+    background-image: url(../../assets/img/svg/card-2.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .overview-transaction-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .block-heading{
+    margin-bottom: 20px;
+  }
+  
+  .transaction-card{
+    width: 350px;
+    height: 235px;
+    background-color: #fff;
+    border-radius: 25px;
+    background-image: url(../../assets/img/svg/Block-transactions.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .overview-weekly-activity-block, .overview-expense-statistics-block, .overview-quick-transfer-block, .overview-balance-history-block{
+    margin-top: 24px;
+  }
+  
+  .weekly-activity-card{
+    width: 730px;
+    height: 322px;
+    background-color: #fff;
+    border-radius: 25px;
+    background-image: url(../../assets/img/svg/Weekly\ Activity.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .expense-statistics-card{
+    width: 350px;
+    height: 322px;
+    background-color: #fff;
+    border-radius: 25px;
+    background-image: url(../../assets/img/svg/Expense\ Statistics.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .quick-transfer-card{
+    box-sizing: border-box;
+    width: 445px;
+    height: 276px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 35px 25px
+  }
+  
+  .quick-transfer-card__list{
+    width: 80%;
+    display: flex;
+    justify-content: start;
+    list-style: none;
+    padding: 0px;
+    margin-right: 10px;
+  }
+  
+  .quick-transfer-card__item{
+    min-width: 95px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    margin-right: 25px;
+    user-select: none;
+    cursor: pointer;
+  }
+  
+  .card__item-img{
+    width: 70px;
+    height: 70px;
+    background-color: pink;
+    border-radius: 50%;
+  }
+  
+  .card__item-name{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+    margin: 0px;
+    margin-top: 15px;
+    color: #232323;
+  }
+  
+  .card__item-post{
+    font-family: 'Inter';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.15px;
+    text-align: left;  
+    margin: 0px;
+    margin-top: 5px;
+    color: #718EBF;
+  }
+  
+  
+  .quick-transfer-card__list-btn{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 5px 5px 34px -5px rgba(34, 60, 80, 0.6);
+    margin-left: 10px;
+    cursor: pointer;
+    background-image: url(../../assets/img/svg/Arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 20%;
+  }
+  
+  .quick-transfer-card__amount-line{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .quick-transfer-card__amount-line-text{
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+    color: #718EBF;
+  }
+
+  .card__amount-form{
+    position: relative;
+    box-sizing: border-box;
+    width: 265px;
+    height: 100%;
+    background-color: rgba(237, 241, 247, 1);
+    border-radius: 50px;
+    padding: 12px 30px;
+  }
+
+  .card__amount-input{
+    width: 100px;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    color: #8BA3CB;
+    font-family: "Inter";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.15px;
+    text-align: left;
+  }
+
+  .card__amount-input:active{
+    outline: none;
+  }
+  
+  .card__amount-input:focus{
+    outline: none;
+  }
+
+  .card__amount-input::-webkit-input-placeholder {
+    color: #8BA3CB;
+    font-family: "Inter";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.15px;
+    text-align: left;
+}
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.card__amount-form-btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 125px;
+    height: 50px;
+    background-color: rgba(24, 20, 243, 1);
+    border: none;
+    border-radius: 50px;
+    padding: 14px 24px;
+    cursor: pointer;
+}
+
+.card__amount-form-btn-text{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    text-align: left;
+    color: #FFF;
+    padding: 0px;
+    margin: 0px;
+}
+
+.card__amount-form-btn-icon{
+    width: 25px;
+    height: 25px;
+    background-image: url(../../assets/img/svg/TG.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 90%;
+}
+
+  .balance-history-card{
+    width: 635px;
+    height: 276px;
+    background-color: #fff;
+    border-radius: 25px;
+    background-image: url(../../assets/img/svg/Balance\ history.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  @media (max-width: 1200px) {
+    .section-overview{
+      justify-content: center;
+      padding: 24px 40px 24px 40px;
+    }
+
+    .overview-cards-block{
+      width: 100%;
+      margin-bottom: 19px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .current-overview-card, .another-overview-card{
+      min-width: 265px;
+      width: 265px;
+      min-height: 170px;
+      height: 170px;
+    }
+
+    .current-overview-card{
+      margin-right: 20px;
+    }
+
+    .overview-transaction-block{
+      width: 100%;
+    }
+
+    .transaction-card{
+      width: 100%;
+      min-width: 325px;
+      height: 214px;
+      background-position:left center;
+    }
+
+    .overview-weekly-activity-block{
+      width: 100%;
+    }
+
+    .weekly-activity-card{
+      width: 100%;
+      min-width: 325px;
+      height: 254px;
+      background-image: url(../../assets/img/svg/weekly-media.svg);
+    }
+
+    .overview-expense-statistics-block{
+      width: 100%;
+    }
+
+    .expense-statistics-card{
+      width: 100%;
+      min-width: 325px;
+      height: 240px;
+      background-image: url(../../assets/img/svg/expence-media.svg);
+    }
+
+    .overview-quick-transfer-block{
+      width: 100%;
+    }
+
+    .quick-transfer-card{
+      width: 100%;
+      min-width: 325px;
+      height: 195px;
+    }
+
+    .overview-balance-history-block{
+      width: 100%;
+    }
+
+    .balance-history-card{
+      width: 100%;
+      min-width: 325px;
+      height: 223px;
+      background-image: url(../../assets/img/svg/balance-mediasvg.svg);
+    }
+
+    .quick-transfer-card{
+      padding: 10px 10px;
+    }
+
+    .quick-transfer-card__list{
+      margin-right: 0px;
+    }
+
+    .card__item-img{
+      width: 50px;
+      height: 50px;
+    }
+
+    .quick-transfer-card__list-btn{
+      margin-left: 20px;
+      width: 40px;
+      height: 40px;
+    }
+
+    .quick-transfer-card__item{
+      margin-right: 0px;
+    }
+
+    .card__item-name{
+      margin-top: 5px;
+      font-size: 14px;
+    }
+
+    .card__item-post{
+      margin-top: 2px;
+      font-size: 12px;
+    }
+
+    .quick-transfer-card__amount-line-text{
+      font-size: 14px;
+    }
+
+    .card__amount-form{
+      padding: 6px 15px;
+      width: 195px;
+    }
+
+    .card__amount-form-btn{
+      width: 110px;
+    }
+  }
+  
+  @media (max-width: 768px){
+    .section-overview{
+      padding: 14px 0px 14px 20px;
+      justify-content: center;
+      background-color: #FFF;
+    }
+  }
+
+  @media (max-width: 480px){
+    .section-overview{
+      justify-content: flex-start;
+      overflow: hidden;
+    }
+
+    .overview-cards-block{
+      flex-wrap: nowrap;
+      flex-direction: column;
+      width: 100%;
+      overflow: auto;
+      margin-bottom: 19px;
+      margin-right: 10px;
+    }
+
+    .overview-cards-line{
+      width: 550px;
+    }
+
+    .overview-heading{
+      font-size: 16px;
+    }
+
+    .overview-btn{
+      font-size: 14px;
+    }
+
+    .card__amount-form-btn-text{
+      font-size: 13px;
+    }
+
+    .card__amount-form-btn-icon{
+      width: 16px;
+      height: 14px;
+    }
+
+    .card__amount-input{
+      font-size: 12px;
+    }
+
+    .card__amount-input::-webkit-input-placeholder {
+      font-size: 12px;
+  }
+  }

@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+  .empty-container{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Inter';
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 33.89px;
+    color: rgba(52, 60, 106, 1);
+  }

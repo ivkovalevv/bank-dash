@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.navbar{
+    box-sizing: border-box;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100vh;
+    border-right: 1px solid #e6eff5;
+    transition: transform .2s ease;
+    z-index: 1;
+}
+
+.close{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 25px;
+    left: 99%;
+    background-color: #FFF;
+    border-top: 1px solid #e6eff5;
+    border-right: 1px solid #e6eff5;
+    border-bottom: 1px solid #e6eff5;
+    border-left: 1px solid transparent;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    color: rgba(177, 177, 177, 1);
+    font-family: 'Inter';
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.close-visible{
+    display: flex;
+}
+
+.right{
+    transform: translateX(0%) !important;
+}
+
+.navbar-logo{
+    width: 183px;
+    height: 36px;
+    margin: 31px 38px 33px;
+}
+
+.navbar-list{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    list-style: none;
+    padding: 0px 0px;
+}
+
+.navbar-item{
+    width: 100%;
+    height: 60px;
+    position: relative;
+}
+
+.dashboard-select, .transactions-select, .accounts-select, .investments-select, .credit-cards-select, .loans-select, .services-select, .privileges-select, .setting-select{
+    position: absolute;
+    top: 0px;
+    left: -5px;
+    height: 99%;
+    width: 10px;
+    border-radius: 25%;
+    background-color: transparent;
+}
+
+.active > p{
+    color: rgba(45, 96, 255, 1);
+}
+
+.active > .dashboard-select{background-color: rgba(45, 96, 255, 1);}
+.active > .transactions-select{background-color: rgba(45, 96, 255, 1);}
+.active > .accounts-select{background-color: rgba(45, 96, 255, 1);}
+.active > .investments-select{background-color: rgba(45, 96, 255, 1);}
+.active > .credit-cards-select{background-color: rgba(45, 96, 255, 1);}
+.active > .loans-select{background-color: rgba(45, 96, 255, 1);}
+.active > .services-select{background-color: rgba(45, 96, 255, 1);}
+.active > .privileges-select{background-color: rgba(45, 96, 255, 1);}
+.active > .setting-select{background-color: rgba(45, 96, 255, 1);}
+
+.active > .item__logo-dashboard{background-image: url(../../../assets/img/svg/home-hover.svg);}
+.active > .item__logo-transactions{background-image: url(../../../assets/img/svg/transactions-hover.svg);}
+.active > .item__logo-accounts{background-image: url(../../../assets/img/svg/accounts-hover.svg);}
+.active > .item__logo-accounts{background-image: url(../../../assets/img/svg/accounts-hover.svg);}
+.active > .item__logo-investments{background-image: url(../../../assets/img/svg/investments-hover.svg);}
+.active > .item__logo-credit-cards{background-image: url(../../../assets/img/svg/credit-cards-hover.svg);}
+.active > .item__logo-loans{background-image: url(../../../assets/img/svg/loans-hover.svg);}
+.active > .item__logo-services{background-image: url(../../../assets/img/svg/services-hover.svg);}
+.active > .item__logo-my-privileges{background-image: url(../../../assets/img/svg/my-privileges-hover.svg);}
+.active > .item__logo-setting{background-image: url(../../../assets/img/svg/setting-hover.svg);}
+
+
+.navbar-item__link{
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: all .2s ease;
+}
+
+.navbar-item__logo{
+    width: 25px;
+    height: 25px;
+    margin-left: 44px;
+    margin-right: 26px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .2s ease;
+}
+
+.navbar-item__text{
+    color: rgba(177, 177, 177, 1);
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.78px;
+    text-align: left;
+    text-decoration: none;
+    transform: translateY(1px);
+    transition: all .2s ease;
+    user-select: none;
+}
+
+.item__logo-dashboard{background-image: url(../../../assets/img/svg/home.svg);}
+.item__logo-transactions{background-image: url(../../../assets/img/svg/transactions.svg);}
+.item__logo-accounts{background-image: url(../../../assets/img/svg/accounts.svg);}
+.item__logo-investments{background-image: url(../../../assets/img/svg/investments.svg);}
+.item__logo-credit-cards{background-image: url(../../../assets/img/svg/credit-cards.svg);}
+.item__logo-loans{background-image: url(../../../assets/img/svg/loans.svg);}
+.item__logo-services{background-image: url(../../../assets/img/svg/services.svg);}
+.item__logo-my-privileges{background-image: url(../../../assets/img/svg/my-privileges.svg);}
+.item__logo-setting{background-image: url(../../../assets/img/svg/setting.svg);}
+
+.link-dashboard:hover .item__logo-dashboard{background-image: url(../../../assets/img/svg/home-hover.svg);}
+.link-dashboard:hover .navbar-item__text{color: rgba(45, 96, 255, 1);}
+
+.link-transactions:hover .item__logo-transactions{background-image: url(../../../assets/img/svg/transactions-hover.svg);}
+.link-transactions:hover .navbar-item__text{color: rgba(45, 96, 255, 1);}
+
+.link-accounts:hover .item__logo-accounts{background-image: url(../../../assets/img/svg/accounts-hover.svg);}
+.link-accounts:hover .navbar-item__text{color: rgba(45, 96, 255, 1);}
+
+.link-accounts:hover .item__logo-accounts{background-image: url(../../../assets/img/svg/accounts-hover.svg);}
+.link-accounts:hover .navbar-item__text{color: rgba(45, 96, 255, 1);}
+
+.link-investments:hover .item__logo-investments{background-image: url(../../../assets/img/svg/investments-hover.svg);}
+.link-investments:hover .navbar-item__text{color: rgba(45, 96, 255, 1);}
+
+.link-credit-cards:hover .item__logo-credit-cards{background-image: url(../../../assets/img/svg/credit-cards-hover.svg);}
+.link-credit-cards:hover .navbar-item__text{color: rgba(45, 96, 255, 1);}
+
+.link-loans:hover .item__logo-loans{background-image: url(../../../assets/img/svg/loans-hover.svg);}
+.link-loans:hover .navbar-item__text{color: rgba(45, 96, 255, 1);}
+
+.link-services:hover .item__logo-services{background-image: url(../../../assets/img/svg/services-hover.svg);}
+.link-services:hover .navbar-item__text{color: rgba(45, 96, 255, 1);}
+
+.link-my-privileges:hover .item__logo-my-privileges{background-image: url(../../../assets/img/svg/my-privileges-hover.svg);}
+.link-my-privileges:hover .navbar-item__text{color: rgba(45, 96, 255, 1);}
+
+.link-setting:hover .item__logo-setting{background-image: url(../../../assets/img/svg/setting-hover.svg);}
+.link-setting:hover .navbar-item__text{color: rgba(45, 96, 255, 1);}
+
+
+@media (max-width: 1200px) {
+    .navbar{
+        transform: translateX(-100%);
+    }
+}

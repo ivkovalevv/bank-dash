@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+  .section-transactions{
+    box-sizing: border-box;
+    width: 100%;
+    height: fit-content;
+    margin-right: auto;
+    background-color: #f5f7fa;
+    padding: 24px 40px 24px 290px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .transactions-cards-block{
+    width: 730px;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 24px;
+  }
+  
+  .transactions-cards-line{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .transactions-heading{
+    margin-top: 0;
+    font-family: 'Inter';
+    font-size: 22px;
+    font-weight: 600;
+    text-align: left;
+    color: #343C6A;
+    margin: 0px;
+  }
+  
+  .transactions-btn{
+    font-family: 'Inter';
+    font-size: 17px;
+    font-weight: 600;
+    text-align: right;
+    color: #343C6A;
+    cursor: pointer;
+  }
+
+  .cards-transactions-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .current-transactions-card{
+    position: relative;
+    width: 350px;
+    height: 225px;
+    background: linear-gradient(107.38deg, #4C49ED 2.61%, #0A06F4 101.2%);
+    border-radius: 25px;
+    background-image: url(../../assets/img/svg/card-1.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .current-transactions-card::before{
+    content: '';
+    position: absolute;
+    top: 70%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #cacaca;
+  }
+  
+  .another-transactions-card{
+    position: relative;
+    width: 350px;
+    height: 225px;
+    background-color: #fff;
+    border-radius: 25px;
+    background-image: url(../../assets/img/svg/card-2.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .another-transactions-card::before{
+    content: '';
+    position: absolute;
+    top: 70%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #cacaca;
+  }
+  
+  .transactions-my-expense-heading{
+    margin-top: 0;
+    font-family: 'Inter';
+    font-size: 22px;
+    font-weight: 600;
+    text-align: left;
+    color: #343C6A;
+    margin: 0px;
+    margin-bottom: 20px;
+  }
+  
+  .transactions-my-expense-card{
+    width: 350px;
+    height: 225px;
+    background-color: #fff;
+    border-radius: 25px;
+    background-image: url(../../assets/img/svg/MyExpense.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  
+  .transactions-recent-transactions-heading{
+    margin-top: 0;
+    font-family: 'Inter';
+    font-size: 22px;
+    font-weight: 600;
+    text-align: left;
+    color: #343C6A;
+    margin: 0px;
+    margin-bottom: 20px;
+  }
+  
+  .transactions-recent-transactions-actions{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #EBEEF2;
+    margin-bottom: 25px;
+  }
+  
+  .transactions-recent-transactions-actions-btn{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    text-align: left;
+    margin-right: 82px;
+    color: #718EBF;
+    padding-bottom: 8px;
+    transition: all .2s ease;
+    border-bottom: 3px solid transparent;
+    cursor: pointer;
+  }
+  
+  .transactions-recent-transactions-actions-btn:hover{
+    color: #1814F3;
+    border-bottom: 3px solid #1814F3;
+  }
+  
+  .actions-btn-active{
+    color: #1814F3;
+    border-bottom: 3px solid #1814F3;
+  }
+  
+  .transactions-recent-transactions-card{
+    width: 1110px;
+    height: 397px;
+    background-color: #fff;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    background-image: url(../../assets/img/svg/AllTransactions.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  
+  .transactions-recent-transactions-pages{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .transactions-recent-transactions-pages-btn{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+  }
+  
+  .transactions-recent-transactions-pages-btn-icon{
+     color: #1814F3;
+  }
+  
+  .btn-icon-prev{
+    width: 22px;
+    height: 12px;
+    margin-right: 7px;
+    background-image: url(../../assets/img/svg/Arrow-prev.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+  }
+  
+  .btn-icon-next{
+    width: 22px;
+    height: 12px;
+    margin-left: 7px;
+    background-image: url(../../assets/img/svg/Arrow-next.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+  }
+  
+  .transactions-recent-transactions-pages-btn-text{
+    font-family: 'Inter';
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18.15px;
+    text-align: left;
+    color: #1814F3;
+  }
+  
+  .transactions-recent-transactions-pages-list{
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 12px;
+    margin-right: 12px;
+    list-style: none;
+    padding: 0px;
+  }
+  
+  .transactions-recent-transactions-pages-item{
+    padding: 11px 16px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #1814F3;
+    transition: background-color .2s ease, color .2s ease;
+    cursor: pointer;
+  }
+  
+  .transactions-recent-transactions-pages-item:hover{
+    background-color: #1814F3;
+    color: #FFF;
+  }
+  
+  .pages-item-active{
+    background-color: #1814F3;
+    color: #FFF;
+  }
+  
+  .transactions-recent-transactions-pages-item:not(:last-child){
+    margin-right: 1px;
+  }
+
+  @media (max-width: 1200px) {
+    .section-transactions{
+      justify-content: center;
+      padding: 24px 40px 24px 40px;
+    }
+
+    .transactions-cards-block{
+      width: 100%;
+      margin-bottom: 19px;
+    }
+
+    .transactions-recent-transactions-card{
+      width: 100%;
+      background-position: left center;
+      background-size: cover;
+    }
+
+    .transactions-recent-transactions-block{
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .current-transactions-card, .another-transactions-card{
+      min-width: 265px;
+      width: 265px;
+      min-height: 170px;
+      height: 170px;
+    }
+
+    .transactions-recent-transactions-card{
+      min-width: 325px;
+      height: 299px;
+      background-image: url(../../assets/img/svg/Recent-media.svg);
+      background-position: center center;
+      background-size: cover;
+    }
+
+    .transactions-recent-transactions-actions{
+      width: 100%;
+      justify-content: space-between;
+    }
+
+    .transactions-recent-transactions-actions-btn{
+      margin-right: 25px;
+    }
+
+    .current-transactions-card{
+      margin-right: 20px;
+    }
+
+    .transactions-my-expense-block{
+      width: 100%;
+    }
+
+    .transactions-my-expense-card{
+      width: 100%;
+      min-width: 325px;
+      height: 214px;
+    }
+
+    .transactions-recent-transactions-pages{
+      margin-left: auto;
+    }
+
+    .transactions-recent-transactions-pages-btn-text{
+      font-size: 14px;
+    }
+
+    .transactions-recent-transactions-pages-item{
+      padding: 7px 12px;
+    }
+  }
+  
+  @media (max-width: 768px){
+    .section-transactions{
+      padding: 14px 0px 14px 20px;
+      justify-content: center;
+      background-color: #FFF;
+    }
+  }
+
+  @media (max-width: 480px){
+    .section-transactions{
+      justify-content: flex-start;
+      overflow: hidden;
+    }
+
+    .transactions-cards-block{
+      flex-wrap: nowrap;
+      flex-direction: column;
+      width: 100%;
+      overflow: auto;
+      margin-bottom: 19px;
+      margin-right: 10px;
+    }
+
+    .transactions-cards-line{
+      width: 550px;
+    }
+
+    .transactions-heading, .transactions-my-expense-heading, .transactions-recent-transactions-heading{
+      font-size: 16px;
+    }
+
+    .transactions-btn{
+      font-size: 14px;
+    }
+
+    .transactions-recent-transactions-actions-btn{
+      font-size: 13px;
+    }
+  }
