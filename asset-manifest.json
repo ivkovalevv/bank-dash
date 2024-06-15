@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bankdash/static/css/main.ac1aca65.css",
-    "main.js": "/bankdash/static/js/main.4e6faf65.js",
+    "main.js": "/bankdash/static/js/main.a89686a7.js",
     "static/js/453.4db934a7.chunk.js": "/bankdash/static/js/453.4db934a7.chunk.js",
     "static/media/AllTransactions.svg": "/bankdash/static/media/AllTransactions.a33e9050432008ecba15.svg",
     "static/media/balance-mediasvg.svg": "/bankdash/static/media/balance-mediasvg.2bf6a512ada69d878c20.svg",
@@ -80,11 +80,11 @@
     "static/media/Arrow-next.svg": "/bankdash/static/media/Arrow-next.793a3f698d5f9694430b.svg",
     "static/media/Arrow-prev.svg": "/bankdash/static/media/Arrow-prev.340e4b9f5da23e721141.svg",
     "main.ac1aca65.css.map": "/bankdash/static/css/main.ac1aca65.css.map",
-    "main.4e6faf65.js.map": "/bankdash/static/js/main.4e6faf65.js.map",
+    "main.a89686a7.js.map": "/bankdash/static/js/main.a89686a7.js.map",
     "453.4db934a7.chunk.js.map": "/bankdash/static/js/453.4db934a7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ac1aca65.css",
-    "static/js/main.4e6faf65.js"
+    "static/js/main.a89686a7.js"
   ]
 }
