@@ -29,13 +29,13 @@ const Navbar = () => {
 
     return (
         <div className={'navbar'}>
-            <Link to="/dashboard" onClick={changeSelect}>
+            <Link to="/bankdash/dashboard" onClick={changeSelect}>
                 <img src={Logo} className={'navbar-logo'}></img>
             </Link>
             <button className={'close'} onClick={close}>x</button>
             <ul className={'navbar-list'}>
                 <li className={'navbar-item'}>
-                    <Link to="/dashboard" className={'navbar-item__link link-dashboard'} onClick={changeSelect}>
+                    <Link to="/bankdash/dashboard" className={'navbar-item__link link-dashboard'} onClick={changeSelect}>
                         <div className={'navbar-item__logo item__logo-dashboard'}></div>
                         <p className={'navbar-item__text'}>
                             Dashboard
@@ -44,7 +44,7 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li className={'navbar-item'}>
-                    <Link to="/transactions" className={'navbar-item__link link-transactions'} onClick={changeSelect}>
+                    <Link to="/bankdash/transactions" className={'navbar-item__link link-transactions'} onClick={changeSelect}>
                         <div className={'navbar-item__logo item__logo-transactions'}></div>
                         <p className={'navbar-item__text'}>
                             Transactions
@@ -53,7 +53,7 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li className={'navbar-item'}>
-                    <Link to="/accounts" className={'navbar-item__link link-accounts'} onClick={changeSelect}>
+                    <Link to="/bankdash/accounts" className={'navbar-item__link link-accounts'} onClick={changeSelect}>
                         <div className={'navbar-item__logo item__logo-accounts'}></div>
                         <p className={'navbar-item__text'}>
                             Accounts
@@ -62,7 +62,7 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li className={'navbar-item'}>
-                    <Link to="/investments" className={'navbar-item__link link-investments'} onClick={changeSelect}>
+                    <Link to="/bankdash/investments" className={'navbar-item__link link-investments'} onClick={changeSelect}>
                         <div className={'navbar-item__logo item__logo-investments'}></div>
                         <p className={'navbar-item__text'}>
                             Investments
@@ -71,7 +71,7 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li className={'navbar-item'}>
-                    <Link to="/credit-cards" className={'navbar-item__link link-credit-cards'} onClick={changeSelect}>
+                    <Link to="/bankdash/credit-cards" className={'navbar-item__link link-credit-cards'} onClick={changeSelect}>
                         <div className={'navbar-item__logo item__logo-credit-cards'}></div>
                         <p className={'navbar-item__text'}>
                             Credit Cards
@@ -80,7 +80,7 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li className={'navbar-item'}>
-                    <Link to="/loans" className={'navbar-item__link link-loans'} onClick={changeSelect}>
+                    <Link to="/bankdash/loans" className={'navbar-item__link link-loans'} onClick={changeSelect}>
                         <div className={'navbar-item__logo item__logo-loans'}></div>
                         <p className={'navbar-item__text'}>
                             Loans
@@ -89,7 +89,7 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li className={'navbar-item'}>
-                    <Link to="/services" className={'navbar-item__link link-services'} onClick={changeSelect}>
+                    <Link to="/bankdash/services" className={'navbar-item__link link-services'} onClick={changeSelect}>
                         <div className={'navbar-item__logo item__logo-services'}></div>
                         <p className={'navbar-item__text'}>
                             Services
@@ -98,7 +98,7 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li className={'navbar-item'}>
-                    <Link to="/my-privileges" className={'navbar-item__link link-my-privileges'} onClick={changeSelect}>
+                    <Link to="/bankdash/my-privileges" className={'navbar-item__link link-my-privileges'} onClick={changeSelect}>
                         <div className={'navbar-item__logo item__logo-my-privileges'}></div>
                         <p className={'navbar-item__text'}>
                             My Privileges
@@ -107,7 +107,7 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li className={'navbar-item'}>
-                    <Link to="/setting" className={'navbar-item__link link-setting'} onClick={changeSelect}>
+                    <Link to="/bankdash/setting" className={'navbar-item__link link-setting'} onClick={changeSelect}>
                         <div className={'navbar-item__logo item__logo-setting'}></div>
                         <p className={'navbar-item__text'}>
                             Setting

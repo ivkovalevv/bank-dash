@@ -7,7 +7,6 @@ const Services = () => {
     return (
         <div className={"services-container"}>
         <Header title="Services"></Header>
-            <div className={'empty-container'}><h2>404</h2> page not found</div>
         </div>
     )
 }

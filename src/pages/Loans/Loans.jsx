@@ -7,7 +7,6 @@ const Loans = () => {
     return (
         <div className={"loans-container"}>
             <Header title="Loans"></Header>
-            <div className={'empty-container'}><h2>404</h2> page not found</div>
         </div>
     )
 }

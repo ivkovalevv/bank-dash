@@ -7,7 +7,6 @@ const Privileges = () => {
     return (
         <div className={"privileges-container"}>
             <Header title="My Privileges"></Header>
-            <div className={'empty-container'}><h2>404</h2> page not found</div>
         </div>
     )
 }

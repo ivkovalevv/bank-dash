@@ -13,16 +13,16 @@ import Setting from "../../pages/Setting/Setting";
 const AppRouter = () =>{
     return(
         <Routes>
-          <Route path="/" element={<Dashboard></Dashboard>}></Route>
-          <Route path="/dashboard" element={<Dashboard></Dashboard>}></Route>
-          <Route path="/transactions" element={<Transactions></Transactions>}></Route>
-          <Route path="/accounts" element={<Accounts></Accounts>}></Route>
-          <Route path="/investments" element={<Investments></Investments>}></Route>
-          <Route path="/credit-cards" element={<CreditCards></CreditCards>}></Route>
-          <Route path="/loans" element={<Loans></Loans>}></Route>
-          <Route path="/services" element={<Services></Services>}></Route>
-          <Route path="/my-privileges" element={<Privileges></Privileges>}></Route>
-          <Route path="/setting" element={<Setting></Setting>}></Route>
+          <Route exact path="/bankdash/" element={<Dashboard></Dashboard>}></Route>
+          <Route exact path="/bankdash/dashboard" element={<Dashboard></Dashboard>}></Route>
+          <Route exact path="/bankdash/transactions" element={<Transactions></Transactions>}></Route>
+          <Route exact path="/bankdash/accounts" element={<Accounts></Accounts>}></Route>
+          <Route exact path="/bankdash/investments" element={<Investments></Investments>}></Route>
+          <Route exact path="/bankdash/credit-cards" element={<CreditCards></CreditCards>}></Route>
+          <Route exact path="/bankdash/loans" element={<Loans></Loans>}></Route>
+          <Route exact path="/bankdash/services" element={<Services></Services>}></Route>
+          <Route exact path="/bankdash/my-privileges" element={<Privileges></Privileges>}></Route>
+          <Route exact path="/bankdash/setting" element={<Setting></Setting>}></Route>
         </Routes>
     )
 }
