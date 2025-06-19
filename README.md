@@ -1,4 +1,4 @@
-# 🏦 Bank Dashboard - Банковский сайт на React
+# 🏦 Bank Dash - Банковский сайт на React
 
 [![Демо](https://img.shields.io/badge/-ДЕМО-0077B6?style=for-the-badge&logo=react&logoColor=white)](https://ivkovalevv.github.io/bank-dash/)
 [![Исходный код](https://img.shields.io/badge/-ИСХОДНИКИ-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ivkovalevv/bank-dash)
