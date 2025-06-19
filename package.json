@@ -1,7 +1,7 @@
 {
   "name": "bank-dash",
   "version": "0.1.0",
-  "homepage": "https://ivkovalevv.github.io/bankdash",
+  "homepage": "https://ivkovalevv.github.io/bank-dash",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
