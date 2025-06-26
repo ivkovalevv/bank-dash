@@ -1,7 +1,7 @@
 # 🏦 Bank Dash - Банковский сайт на React
 
-[![Демо](https://img.shields.io/badge/-ДЕМО-0077B6?style=for-the-badge&logo=react&logoColor=white)](https://ivkovalevv.github.io/bank-dash/)
-[![Исходный код](https://img.shields.io/badge/-ИСХОДНИКИ-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ivkovalevv/bank-dash)
+[![Демо](https://img.shields.io/badge/-ДЕМО-0077B6?style=for-the-badge&logo=react&logoColor=white)](https://ivkovalevv.github.io/bankdash/)
+[![Исходный код](https://img.shields.io/badge/-ИСХОДНИКИ-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ivkovalevv/bankdash)
 
 Современный многостраничный банковский интерфейс с адаптивным дизайном в рамках фриланс-проекта
 
