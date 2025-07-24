@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bank-dash/static/css/main.c664cdc4.css",
-    "main.js": "/bank-dash/static/js/main.a51cd307.js",
+    "main.js": "/bank-dash/static/js/main.bef7c24b.js",
     "static/js/453.4db934a7.chunk.js": "/bank-dash/static/js/453.4db934a7.chunk.js",
     "static/media/AllTransactions.svg": "/bank-dash/static/media/AllTransactions.a33e9050432008ecba15.svg",
     "static/media/balance-mediasvg.svg": "/bank-dash/static/media/balance-mediasvg.2bf6a512ada69d878c20.svg",
@@ -73,18 +73,18 @@
     "static/media/home-hover.svg": "/bank-dash/static/media/home-hover.09be732154c48ceb26a9.svg",
     "static/media/BURGER.svg": "/bank-dash/static/media/BURGER.819d923f6b13b7757b57.svg",
     "static/media/TG.svg": "/bank-dash/static/media/TG.15a0211937c86c455c2b.svg",
+    "index.html": "/bank-dash/index.html",
     "static/media/Search.svg": "/bank-dash/static/media/Search.cd7354c570b752133f6e.svg",
     "static/media/google.svg": "/bank-dash/static/media/google.0c3a80c02b114295dbb8.svg",
-    "index.html": "/bank-dash/index.html",
     "static/media/Arrow.svg": "/bank-dash/static/media/Arrow.bf0485421fbea367023b.svg",
     "static/media/Arrow-next.svg": "/bank-dash/static/media/Arrow-next.793a3f698d5f9694430b.svg",
     "static/media/Arrow-prev.svg": "/bank-dash/static/media/Arrow-prev.340e4b9f5da23e721141.svg",
     "main.c664cdc4.css.map": "/bank-dash/static/css/main.c664cdc4.css.map",
-    "main.a51cd307.js.map": "/bank-dash/static/js/main.a51cd307.js.map",
+    "main.bef7c24b.js.map": "/bank-dash/static/js/main.bef7c24b.js.map",
     "453.4db934a7.chunk.js.map": "/bank-dash/static/js/453.4db934a7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c664cdc4.css",
-    "static/js/main.a51cd307.js"
+    "static/js/main.bef7c24b.js"
   ]
 }
