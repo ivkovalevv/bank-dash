@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <div className={'browse__container'}>
       <BrowserRouter>
-        {<Navbar></Navbar>}
+        <Navbar></Navbar>
         <AppRouter></AppRouter>
       </BrowserRouter>
       </div>
